@@ -113,6 +113,10 @@ wish to contribute to the mutopia project at http://www.mutopiaproject.org/.
 
 ## How do I build the pdfs?
 * you need tools installed. on Ubuntu ```$ sudo apt install lilypond qpdf```
+# ubuntu install lilypond 2.22 which fails on newer lilypond syntax for /alternative
+# so work around to install extra in /opt/lilypond2.24.4 and set the PATH
+# install lilypond LTS version 2.24.4 binary package in /opt
+# @see instructions for installin binary without apt tooling https://apetenchea.github.io/2021/10/17/installing-prebuilt-binaries-in-ubuntu/
 * clone the repository ```$ git clone git://github.com/veltzer/openbook.git```
 * cd into the newly created folder ```$ cd openbook```
 * install python tools to create a python virtual envrionment. on Ubuntu ```$ sudo apt install python3 virtualenv```
