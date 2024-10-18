@@ -11,7 +11,7 @@
 % this version tag will keep me compiling only on this version of lilypond.
 %=====================================================================
 
-\version "2.24.3"
+\version "2.22.1"
 
 % lets define a variable to hold the formatted build date (man 3 strftime):
 %date=#(strftime "%T %d-%m-%Y" (localtime (current-time)))
@@ -257,14 +257,14 @@ endChords={}
 				\null
 				\null
 				\null
-				\fill-line { \small "Git tag: 177" }
-				\fill-line { \small "Git describe: 177-92-g32d4bcb6" }
-				\fill-line { \small "Git commits: 1925" }
-				\fill-line { \small "Build date: 12:15:26 07-10-2024" }
-				\fill-line { \small "Build user: mark" }
-				\fill-line { \small "Build host: newton" }
-				\fill-line { \small "Build kernel: Linux 6.8.0-45-lowlatency" }
-				\fill-line { \small "Lilypond version: 2.24.3" }
+				\fill-line { \small "Git tag: 97ab2163336fdead2ec661922ca82fd2f9d7d6c7" }
+				\fill-line { \small "Git describe: 97ab2163" }
+				\fill-line { \small "Git commits: 1928" }
+				\fill-line { \small "Build date: 11:32:31 18-10-2024" }
+				\fill-line { \small "Build user: adwim" }
+				\fill-line { \small "Build host: wibodev" }
+				\fill-line { \small "Build kernel: Linux 5.15.90.1-microsoft-standard-WSL2+" }
+				\fill-line { \small "Lilypond version: 2.22.1" }
 				\fill-line { \small "Number of tunes: 154" }
 				\null
 				\null
@@ -25759,8 +25759,8 @@ endChords={}
                 bes aes ees c bes' aes4.~ | aes2. r8 g~ |
                 g4 e8 g ges ees c f~ | f4 d8 f e8. e16 e8 c~ |
                 \alternative {
-                  { c2~ c~ | c r8 dis \tuplet 3/2 { e g b } | }
-                  { c,2.~ c4 | r2. e4 }
+                  \volta 1 { c2~ c~ | c r8 dis \tuplet 3/2 { e g b } | }
+                  \volta 2 { c,2.~ c4 | r2. e4 }
                 }
 	}
 
